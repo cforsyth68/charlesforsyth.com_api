@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  fastify_api:
+    container_name: fastify_api
+    image: forsyth/premise_api:0.0.1
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    env_file: .env
+
+volumes:
+  fastify_volume: {}

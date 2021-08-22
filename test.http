@@ -1,0 +1,8 @@
+### Documentation
+GET http://localhost:8000/api/v1 HTTP/1.1
+
+### Heartbeat for node status
+GET http://localhost:8000/api/v1/heartbeat HTTP/1.1
+
+### Character Search
+GET http://localhost:8000/api/v1/character/walter HTTP/1.1
